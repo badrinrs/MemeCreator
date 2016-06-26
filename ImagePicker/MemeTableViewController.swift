@@ -39,7 +39,7 @@ class MemeTableViewController: UITableViewController {
         let meme = memes[indexPath.row]
         
         cell.imageView?.image = meme.memedImage
-        cell.memeLabel.text = meme.topText+" "+meme.topText
+        cell.memeLabel.text = meme.topText+" "+meme.bottomText
         
         return cell
     }
