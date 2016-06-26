@@ -27,13 +27,13 @@
         <!--Sent Memes-->
         <scene sceneID="Xg4-D4-zWs">
             <objects>
-                <tableViewController id="hNd-co-1K5" customClass="MemeTableViewController" customModule="ImagePicker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="hNd-co-1K5" customClass="MemeTableViewController" customModule="MemeCreator" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Y1g-fW-Xfe">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewMemeCell" textLabel="DMb-K8-AlL" style="IBUITableViewCellStyleDefault" id="Yc9-Mx-qWu" customClass="TableViewCell" customModule="ImagePicker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewMemeCell" textLabel="DMb-K8-AlL" style="IBUITableViewCellStyleDefault" id="Yc9-Mx-qWu" customClass="TableViewCell" customModule="MemeCreator" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yc9-Mx-qWu" id="ZoU-ms-8Xs">
@@ -110,7 +110,7 @@
         <!--Sent Memes-->
         <scene sceneID="6HZ-Mm-oZO">
             <objects>
-                <collectionViewController id="tl3-nQ-lX2" customClass="MemeCollectionViewController" customModule="ImagePicker" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="tl3-nQ-lX2" customClass="MemeCollectionViewController" customModule="MemeCreator" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="N9K-Jh-VoD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +122,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewMemeCell" id="YRQ-AW-peu" customClass="CollectionViewCell" customModule="ImagePicker" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewMemeCell" id="YRQ-AW-peu" customClass="CollectionViewCell" customModule="MemeCreator" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -170,7 +170,7 @@
         <!--Meme Detail View Controller-->
         <scene sceneID="n58-hO-Jpq">
             <objects>
-                <viewController storyboardIdentifier="memeDetailViewController" hidesBottomBarWhenPushed="YES" id="ard-I6-Q3f" customClass="MemeDetailViewController" customModule="ImagePicker" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="memeDetailViewController" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ard-I6-Q3f" customClass="MemeDetailViewController" customModule="MemeCreator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Bb-oI-gcL"/>
                         <viewControllerLayoutGuide type="bottom" id="ae6-qz-0M1"/>
@@ -202,7 +202,7 @@
         <!--Meme Creator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="memeCreatorController" modalTransitionStyle="flipHorizontal" hidesBottomBarWhenPushed="YES" id="BYZ-38-t0r" customClass="MemeController" customModule="ImagePicker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="memeCreatorController" modalTransitionStyle="flipHorizontal" hidesBottomBarWhenPushed="YES" id="BYZ-38-t0r" customClass="MemeController" customModule="MemeCreator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -211,10 +211,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dpQ-lY-khG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dpQ-lY-khG">
                                 <rect key="frame" x="0.0" y="119" width="600" height="437"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="ExZ-PR-xQc">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExZ-PR-xQc">
                                 <rect key="frame" x="0.0" y="64" width="600" height="55"/>
                                 <items>
                                     <barButtonItem image="imagePicker" id="p6X-aW-Hh7">
@@ -235,7 +235,7 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TOP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jmp-TR-ADw">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TOP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jmp-TR-ADw">
                                 <rect key="frame" x="0.0" y="119" width="600" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="rFa-a7-WDb"/>
@@ -247,7 +247,7 @@
                                     <action selector="onTapOutsideTextField:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Bdy-39-OU9"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BOTTOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q7i-OC-ru6">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BOTTOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q7i-OC-ru6">
                                 <rect key="frame" x="20" y="521" width="560" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="42U-Xv-HBu"/>
