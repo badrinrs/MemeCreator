@@ -45,17 +45,17 @@
 		055F51291D204EEF00D2AC5D /* MemeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTableViewController.swift; sourceTree = "<group>"; };
 		055F51301D20533800D2AC5D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		055F51321D2057FF00D2AC5D /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
-		059D3B3C1CF15D68001CD273 /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		059D3B3C1CF15D68001CD273 /* MemeCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D3B3F1CF15D68001CD273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059D3B411CF15D68001CD273 /* MemeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeController.swift; sourceTree = "<group>"; };
 		059D3B441CF15D68001CD273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		059D3B461CF15D68001CD273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059D3B491CF15D68001CD273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059D3B4B1CF15D68001CD273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		059D3B501CF15D68001CD273 /* ImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059D3B501CF15D68001CD273 /* MemeCreator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeCreator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D3B541CF15D68001CD273 /* ImagePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerTests.swift; sourceTree = "<group>"; };
 		059D3B561CF15D68001CD273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		059D3B5B1CF15D68001CD273 /* ImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059D3B5B1CF15D68001CD273 /* MemeCreator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeCreator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D3B5F1CF15D68001CD273 /* ImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUITests.swift; sourceTree = "<group>"; };
 		059D3B611CF15D68001CD273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059D87F11CFCB4EE00CCAEAC /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
@@ -144,9 +144,9 @@
 		059D3B3D1CF15D68001CD273 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				059D3B3C1CF15D68001CD273 /* ImagePicker.app */,
-				059D3B501CF15D68001CD273 /* ImagePickerTests.xctest */,
-				059D3B5B1CF15D68001CD273 /* ImagePickerUITests.xctest */,
+				059D3B3C1CF15D68001CD273 /* MemeCreator.app */,
+				059D3B501CF15D68001CD273 /* MemeCreator.xctest */,
+				059D3B5B1CF15D68001CD273 /* MemeCreator.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		059D3B3B1CF15D68001CD273 /* ImagePicker */ = {
+		059D3B3B1CF15D68001CD273 /* MemeCreator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059D3B641CF15D68001CD273 /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildConfigurationList = 059D3B641CF15D68001CD273 /* Build configuration list for PBXNativeTarget "MemeCreator" */;
 			buildPhases = (
 				059D3B381CF15D68001CD273 /* Sources */,
 				059D3B391CF15D68001CD273 /* Frameworks */,
@@ -198,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = ImagePicker;
+			name = MemeCreator;
 			productName = ImagePicker;
-			productReference = 059D3B3C1CF15D68001CD273 /* ImagePicker.app */;
+			productReference = 059D3B3C1CF15D68001CD273 /* MemeCreator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		059D3B4F1CF15D68001CD273 /* ImagePickerTests */ = {
+		059D3B4F1CF15D68001CD273 /* MemeCreatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059D3B671CF15D68001CD273 /* Build configuration list for PBXNativeTarget "ImagePickerTests" */;
+			buildConfigurationList = 059D3B671CF15D68001CD273 /* Build configuration list for PBXNativeTarget "MemeCreatorTests" */;
 			buildPhases = (
 				059D3B4C1CF15D68001CD273 /* Sources */,
 				059D3B4D1CF15D68001CD273 /* Frameworks */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				059D3B521CF15D68001CD273 /* PBXTargetDependency */,
 			);
-			name = ImagePickerTests;
+			name = MemeCreatorTests;
 			productName = ImagePickerTests;
-			productReference = 059D3B501CF15D68001CD273 /* ImagePickerTests.xctest */;
+			productReference = 059D3B501CF15D68001CD273 /* MemeCreator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		059D3B5A1CF15D68001CD273 /* ImagePickerUITests */ = {
+		059D3B5A1CF15D68001CD273 /* MemeCreatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059D3B6A1CF15D68001CD273 /* Build configuration list for PBXNativeTarget "ImagePickerUITests" */;
+			buildConfigurationList = 059D3B6A1CF15D68001CD273 /* Build configuration list for PBXNativeTarget "MemeCreatorUITests" */;
 			buildPhases = (
 				059D3B571CF15D68001CD273 /* Sources */,
 				059D3B581CF15D68001CD273 /* Frameworks */,
@@ -234,9 +234,9 @@
 			dependencies = (
 				059D3B5D1CF15D68001CD273 /* PBXTargetDependency */,
 			);
-			name = ImagePickerUITests;
+			name = MemeCreatorUITests;
 			productName = ImagePickerUITests;
-			productReference = 059D3B5B1CF15D68001CD273 /* ImagePickerUITests.xctest */;
+			productReference = 059D3B5B1CF15D68001CD273 /* MemeCreator.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 059D3B371CF15D68001CD273 /* Build configuration list for PBXProject "ImagePicker" */;
+			buildConfigurationList = 059D3B371CF15D68001CD273 /* Build configuration list for PBXProject "MemeCreator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -276,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				059D3B3B1CF15D68001CD273 /* ImagePicker */,
-				059D3B4F1CF15D68001CD273 /* ImagePickerTests */,
-				059D3B5A1CF15D68001CD273 /* ImagePickerUITests */,
+				059D3B3B1CF15D68001CD273 /* MemeCreator */,
+				059D3B4F1CF15D68001CD273 /* MemeCreatorTests */,
+				059D3B5A1CF15D68001CD273 /* MemeCreatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -347,12 +347,12 @@
 /* Begin PBXTargetDependency section */
 		059D3B521CF15D68001CD273 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 059D3B3B1CF15D68001CD273 /* ImagePicker */;
+			target = 059D3B3B1CF15D68001CD273 /* MemeCreator */;
 			targetProxy = 059D3B511CF15D68001CD273 /* PBXContainerItemProxy */;
 		};
 		059D3B5D1CF15D68001CD273 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 059D3B3B1CF15D68001CD273 /* ImagePicker */;
+			target = 059D3B3B1CF15D68001CD273 /* MemeCreator */;
 			targetProxy = 059D3B5C1CF15D68001CD273 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -470,8 +470,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.ImagePicker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.MemeCreator;
+				PRODUCT_NAME = MemeCreator;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -484,8 +484,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.ImagePicker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.MemeCreator;
+				PRODUCT_NAME = MemeCreator;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -497,8 +497,8 @@
 				INFOPLIST_FILE = ImagePickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.ImagePickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePicker.app/ImagePicker";
+				PRODUCT_NAME = MemeCreator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeCreator.app/MemeCreator";
 			};
 			name = Debug;
 		};
@@ -509,8 +509,8 @@
 				INFOPLIST_FILE = ImagePickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.ImagePickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePicker.app/ImagePicker";
+				PRODUCT_NAME = MemeCreator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeCreator.app/MemeCreator";
 			};
 			name = Release;
 		};
@@ -520,7 +520,7 @@
 				INFOPLIST_FILE = ImagePickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.ImagePickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MemeCreator;
 				TEST_TARGET_NAME = ImagePicker;
 			};
 			name = Debug;
@@ -531,7 +531,7 @@
 				INFOPLIST_FILE = ImagePickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.badrimira.ImagePickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MemeCreator;
 				TEST_TARGET_NAME = ImagePicker;
 			};
 			name = Release;
@@ -539,7 +539,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		059D3B371CF15D68001CD273 /* Build configuration list for PBXProject "ImagePicker" */ = {
+		059D3B371CF15D68001CD273 /* Build configuration list for PBXProject "MemeCreator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D3B621CF15D68001CD273 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		059D3B641CF15D68001CD273 /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+		059D3B641CF15D68001CD273 /* Build configuration list for PBXNativeTarget "MemeCreator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D3B651CF15D68001CD273 /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		059D3B671CF15D68001CD273 /* Build configuration list for PBXNativeTarget "ImagePickerTests" */ = {
+		059D3B671CF15D68001CD273 /* Build configuration list for PBXNativeTarget "MemeCreatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D3B681CF15D68001CD273 /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		059D3B6A1CF15D68001CD273 /* Build configuration list for PBXNativeTarget "ImagePickerUITests" */ = {
+		059D3B6A1CF15D68001CD273 /* Build configuration list for PBXNativeTarget "MemeCreatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D3B6B1CF15D68001CD273 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "059D3B3B1CF15D68001CD273"
-               BuildableName = "ImagePicker.app"
-               BlueprintName = "ImagePicker"
-               ReferencedContainer = "container:ImagePicker.xcodeproj">
+               BuildableName = "MemeCreator.app"
+               BlueprintName = "MemeCreator"
+               ReferencedContainer = "container:MemeCreator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "059D3B4F1CF15D68001CD273"
-               BuildableName = "ImagePickerTests.xctest"
-               BlueprintName = "ImagePickerTests"
-               ReferencedContainer = "container:ImagePicker.xcodeproj">
+               BuildableName = "MemeCreator.xctest"
+               BlueprintName = "MemeCreatorTests"
+               ReferencedContainer = "container:MemeCreator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "059D3B5A1CF15D68001CD273"
-               BuildableName = "ImagePickerUITests.xctest"
-               BlueprintName = "ImagePickerUITests"
-               ReferencedContainer = "container:ImagePicker.xcodeproj">
+               BuildableName = "MemeCreator.xctest"
+               BlueprintName = "MemeCreatorUITests"
+               ReferencedContainer = "container:MemeCreator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "059D3B3B1CF15D68001CD273"
-            BuildableName = "ImagePicker.app"
-            BlueprintName = "ImagePicker"
-            ReferencedContainer = "container:ImagePicker.xcodeproj">
+            BuildableName = "MemeCreator.app"
+            BlueprintName = "MemeCreator"
+            ReferencedContainer = "container:MemeCreator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "059D3B3B1CF15D68001CD273"
-            BuildableName = "ImagePicker.app"
-            BlueprintName = "ImagePicker"
-            ReferencedContainer = "container:ImagePicker.xcodeproj">
+            BuildableName = "MemeCreator.app"
+            BlueprintName = "MemeCreator"
+            ReferencedContainer = "container:MemeCreator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "059D3B3B1CF15D68001CD273"
-            BuildableName = "ImagePicker.app"
-            BlueprintName = "ImagePicker"
-            ReferencedContainer = "container:ImagePicker.xcodeproj">
+            BuildableName = "MemeCreator.app"
+            BlueprintName = "MemeCreator"
+            ReferencedContainer = "container:MemeCreator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
