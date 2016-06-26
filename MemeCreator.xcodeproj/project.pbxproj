@@ -134,9 +134,9 @@
 		059D3B331CF15D68001CD273 = {
 			isa = PBXGroup;
 			children = (
-				059D3B3E1CF15D68001CD273 /* ImagePicker */,
-				059D3B531CF15D68001CD273 /* ImagePickerTests */,
-				059D3B5E1CF15D68001CD273 /* ImagePickerUITests */,
+				059D3B3E1CF15D68001CD273 /* MemeCreator */,
+				059D3B531CF15D68001CD273 /* MemeCreatorTests */,
+				059D3B5E1CF15D68001CD273 /* MemeCreatorUITests */,
 				059D3B3D1CF15D68001CD273 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		059D3B3E1CF15D68001CD273 /* ImagePicker */ = {
+		059D3B3E1CF15D68001CD273 /* MemeCreator */ = {
 			isa = PBXGroup;
 			children = (
 				055F512F1D204FFB00D2AC5D /* cells */,
@@ -162,24 +162,27 @@
 				059D3B461CF15D68001CD273 /* Assets.xcassets */,
 				059D3B4B1CF15D68001CD273 /* Info.plist */,
 			);
+			name = MemeCreator;
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
-		059D3B531CF15D68001CD273 /* ImagePickerTests */ = {
+		059D3B531CF15D68001CD273 /* MemeCreatorTests */ = {
 			isa = PBXGroup;
 			children = (
 				059D3B541CF15D68001CD273 /* ImagePickerTests.swift */,
 				059D3B561CF15D68001CD273 /* Info.plist */,
 			);
+			name = MemeCreatorTests;
 			path = ImagePickerTests;
 			sourceTree = "<group>";
 		};
-		059D3B5E1CF15D68001CD273 /* ImagePickerUITests */ = {
+		059D3B5E1CF15D68001CD273 /* MemeCreatorUITests */ = {
 			isa = PBXGroup;
 			children = (
 				059D3B5F1CF15D68001CD273 /* ImagePickerUITests.swift */,
 				059D3B611CF15D68001CD273 /* Info.plist */,
 			);
+			name = MemeCreatorUITests;
 			path = ImagePickerUITests;
 			sourceTree = "<group>";
 		};
