@@ -36,6 +36,7 @@ class MemeCollectionViewController: UICollectionViewController {
     
     @IBAction func addMemeAction(sender: AnyObject) {
         let destinationVC = self.storyboard!.instantiateViewControllerWithIdentifier("memeCreatorController") as! MemeController
+        self.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }
     

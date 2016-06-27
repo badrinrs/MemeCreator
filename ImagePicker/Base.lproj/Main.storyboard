@@ -211,11 +211,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dpQ-lY-khG">
-                                <rect key="frame" x="0.0" y="119" width="600" height="437"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dpQ-lY-khG">
+                                <rect key="frame" x="0.0" y="75" width="600" height="525"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExZ-PR-xQc">
-                                <rect key="frame" x="0.0" y="64" width="600" height="55"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="ExZ-PR-xQc">
+                                <rect key="frame" x="0.0" y="20" width="600" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="VHI-LD-hPH"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem image="imagePicker" id="p6X-aW-Hh7">
                                         <connections>
@@ -235,10 +238,19 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TOP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jmp-TR-ADw">
-                                <rect key="frame" x="0.0" y="119" width="600" height="35"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BOTTOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q7i-OC-ru6">
+                                <rect key="frame" x="0.0" y="565" width="600" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="rFa-a7-WDb"/>
+                                    <constraint firstAttribute="height" constant="35" id="Yoc-Ru-Jce"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TOP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jmp-TR-ADw">
+                                <rect key="frame" x="0.0" y="75" width="600" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="xS8-Eb-7qu"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -247,34 +259,22 @@
                                     <action selector="onTapOutsideTextField:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Bdy-39-OU9"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BOTTOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q7i-OC-ru6">
-                                <rect key="frame" x="20" y="521" width="560" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="42U-Xv-HBu"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" enablesReturnKeyAutomatically="YES"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jmp-TR-ADw" secondAttribute="trailing" constant="-20" id="11r-2u-dSb"/>
-                            <constraint firstItem="Q7i-OC-ru6" firstAttribute="top" secondItem="Jmp-TR-ADw" secondAttribute="bottom" constant="367" id="5BQ-CR-zOt"/>
-                            <constraint firstItem="ExZ-PR-xQc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7cd-Jm-4Mp"/>
-                            <constraint firstItem="Jmp-TR-ADw" firstAttribute="top" secondItem="ExZ-PR-xQc" secondAttribute="bottom" id="85E-lN-RGA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dpQ-lY-khG" secondAttribute="trailing" constant="-20" id="8yM-ES-VFq"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dpQ-lY-khG" secondAttribute="bottom" id="943-1x-eaq"/>
-                            <constraint firstItem="ExZ-PR-xQc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="GW8-tS-6MY"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Q7i-OC-ru6" secondAttribute="bottom" id="HPb-V8-L0R"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ExZ-PR-xQc" secondAttribute="trailing" constant="-20" id="cWw-XC-7R1"/>
-                            <constraint firstItem="Jmp-TR-ADw" firstAttribute="top" secondItem="ExZ-PR-xQc" secondAttribute="bottom" id="ebI-Uw-S5u"/>
-                            <constraint firstItem="Q7i-OC-ru6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="feS-r5-XxH"/>
-                            <constraint firstItem="Q7i-OC-ru6" firstAttribute="top" secondItem="Jmp-TR-ADw" secondAttribute="bottom" constant="367" id="hbh-5J-ASr"/>
-                            <constraint firstItem="dpQ-lY-khG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="kgr-Ln-6cU"/>
-                            <constraint firstItem="Q7i-OC-ru6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n0A-Ry-qZd"/>
-                            <constraint firstItem="dpQ-lY-khG" firstAttribute="top" secondItem="ExZ-PR-xQc" secondAttribute="bottom" id="sCK-8L-5L3"/>
-                            <constraint firstItem="Jmp-TR-ADw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="uFt-IP-RCa"/>
+                            <constraint firstItem="dpQ-lY-khG" firstAttribute="trailing" secondItem="Q7i-OC-ru6" secondAttribute="trailing" id="52P-pO-Ckq"/>
+                            <constraint firstItem="Jmp-TR-ADw" firstAttribute="leading" secondItem="Q7i-OC-ru6" secondAttribute="leading" id="8bH-aY-bWu"/>
+                            <constraint firstItem="dpQ-lY-khG" firstAttribute="leading" secondItem="Q7i-OC-ru6" secondAttribute="leading" id="8fq-EY-rFY"/>
+                            <constraint firstAttribute="trailing" secondItem="ExZ-PR-xQc" secondAttribute="trailing" id="LpV-ZQ-DdK"/>
+                            <constraint firstItem="ExZ-PR-xQc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ONw-4a-YhC"/>
+                            <constraint firstItem="Jmp-TR-ADw" firstAttribute="trailing" secondItem="Q7i-OC-ru6" secondAttribute="trailing" id="Utk-Mm-8Ze"/>
+                            <constraint firstItem="Q7i-OC-ru6" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Xws-7j-J74"/>
+                            <constraint firstItem="dpQ-lY-khG" firstAttribute="top" secondItem="ExZ-PR-xQc" secondAttribute="bottom" id="aa2-iq-OPf"/>
+                            <constraint firstItem="dpQ-lY-khG" firstAttribute="top" secondItem="Jmp-TR-ADw" secondAttribute="top" id="fAl-2c-REn"/>
+                            <constraint firstItem="ExZ-PR-xQc" firstAttribute="trailing" secondItem="Jmp-TR-ADw" secondAttribute="trailing" id="fiU-aF-Xz5"/>
+                            <constraint firstItem="ExZ-PR-xQc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hSh-l0-WU0"/>
+                            <constraint firstItem="dpQ-lY-khG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="toe-YT-ewt"/>
+                            <constraint firstItem="ExZ-PR-xQc" firstAttribute="leading" secondItem="Jmp-TR-ADw" secondAttribute="leading" id="uJ3-jL-eMb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Meme Creator" id="EDK-Bs-8rn">

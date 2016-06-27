@@ -31,6 +31,7 @@ class MemeTableViewController: UITableViewController {
     
     @IBAction func addMeme(sender: AnyObject) {
         let destinationVC = self.storyboard!.instantiateViewControllerWithIdentifier("memeCreatorController") as! MemeController
+        self.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
         self.navigationController?.pushViewController(destinationVC, animated: true)
     }
     
